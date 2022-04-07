@@ -1,1 +1,2 @@
-web: vendor/bin/heroku-php-apache2-bot/
+web: python __init__.py
+heroku ps:scale web=1
